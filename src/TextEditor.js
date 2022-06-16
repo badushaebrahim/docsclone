@@ -23,7 +23,11 @@ export default function TextEditor() {
   const [quill, setQuill] = useState()
 
   useEffect(() => {
+<<<<<<< HEAD
     const s = io("http://docback.eu-4.evennode.com:3001")
+=======
+    const s = io("https://bucolic-smakager-9dd55e.netlify.app/:3001/")
+>>>>>>> 5d2983b7d3fc74bc467bb1a7b77072f9e00a7bf4
     setSocket(s)
 
     return () => {
