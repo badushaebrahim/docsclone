@@ -23,7 +23,7 @@ export default function TextEditor() {
   const [quill, setQuill] = useState()
 
   useEffect(() => {
-    const s = io("http://localhost:3001")
+    const s = io("https://bucolic-smakager-9dd55e.netlify.app/:3001/")
     setSocket(s)
 
     return () => {
