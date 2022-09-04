@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "env": "^0.0.2",
+    "mongoose": "^5.0.3",
+    "socket.io": "^4.2.0"
+  },
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

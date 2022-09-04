@@ -3,13 +3,13 @@ version: '3.9'
 services:
   server:
     build:
-      context: ./docsbackend
+      context: ./dockw/docsbackend
       dockerfile: Dockerfile
     image: myapp-server
     container_name: myapp-node-server
     command: npm run start
     volumes:
-      - ./docsbackend/:/usr/src/app
+      - ./dockw/docsbackend/:/usr/src/app
     ports:
       - "3001:3001"
   client:
