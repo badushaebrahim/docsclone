@@ -16,7 +16,7 @@ const TOOLBAR_OPTIONS = [
   ["image", "blockquote", "code-block"],
   ["clean"],
 ]
-
+//
 export default function TextEditor() {
   const { id: documentId } = useParams()
   const [socket, setSocket] = useState()
